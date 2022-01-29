@@ -1,4 +1,5 @@
 import * as React from "react"
+import Footer from "../components/footer"
 
 /* // styles
 const pageStyles = {
@@ -139,7 +140,7 @@ const IndexPage = () => {
       <p>Main teaching areas</p>
       <p>FAQs</p>
       <p>social media follow</p>
-      <p>footer</p>
+      <Footer />
     </main>
   )
 }
