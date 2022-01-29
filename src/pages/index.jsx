@@ -1,5 +1,6 @@
 import * as React from "react"
 import Footer from "../components/footer"
+import SocialMediaFollow from "../components/social-media-follow";
 
 /* // styles
 const pageStyles = {
@@ -139,7 +140,7 @@ const IndexPage = () => {
       <p>About Mathew</p>
       <p>Main teaching areas</p>
       <p>FAQs</p>
-      <p>social media follow</p>
+      <SocialMediaFollow />
       <Footer />
     </main>
   );
