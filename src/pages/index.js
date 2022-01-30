@@ -2,6 +2,7 @@ import * as React from "react"
 import { graphql } from 'gatsby'
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import Header from "../components/header"
 import Enrolments from "../components/enrolments"
 import Credentials from "../components/credentials"
 import About from "../components/about"
@@ -17,7 +18,7 @@ const IndexPage = ({data}) => {
     <Layout>
       <title>Teakle Tutoring</title>
       <main >
-        <p>insert header</p>
+        <Header />
         <Enrolments />
         <Credentials />
         <div>
