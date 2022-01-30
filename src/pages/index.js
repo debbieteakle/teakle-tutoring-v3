@@ -1,4 +1,5 @@
 import * as React from "react"
+import Enrolments from "./enrolments"
 import Credentials from "../components/credentials"
 import About from "../components/about"
 import FAQs from "../components/faqs"
@@ -137,8 +138,8 @@ const IndexPage = () => {
       <title>Teakle Tutoring</title>
       <p>insert navigation</p>
       <p>insert header</p>
-      <p>insert enrolments</p>
-      <p>insert credentials</p>
+      <Enrolments />
+      
       <p>insert testimonials</p> 
       <Credentials />
       <About />
