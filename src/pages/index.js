@@ -1,5 +1,6 @@
 import * as React from "react"
 import Credentials from "../components/credentials"
+import About from "../components/about"
 import FAQs from "../components/faqs"
 import SocialMediaFollow from "../components/social-media-follow"
 import Footer from "../components/footer"
@@ -139,8 +140,8 @@ const IndexPage = () => {
       <p>insert enrolments</p>
       <p>insert credentials</p>
       <p>insert testimonials</p> 
-      <p>About Mathew</p>
       <Credentials />
+      <About />
       <FAQs />
       <SocialMediaFollow />
       <Footer />
