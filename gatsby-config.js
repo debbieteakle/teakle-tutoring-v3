@@ -22,5 +22,20 @@ module.exports = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  },
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `blog-posts`,
+      path: `${__dirname}/src/content/blog-posts`,
+    },
+  },
+      {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `testimonial`,
+      path: `${__dirname}/src/content/testimonials`,
+    },
+  },
+]
 };
