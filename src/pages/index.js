@@ -1,6 +1,8 @@
 import * as React from "react"
-import Footer from "../components/footer"
+import FAQs from "../components/faqs"
 import SocialMediaFollow from "../components/social-media-follow"
+import Footer from "../components/footer"
+
 /* // styles
 const pageStyles = {
   color: "#232129",
@@ -129,8 +131,8 @@ const links = [
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Teakle Tutoring<title>
+    <main >
+      <title>Teakle Tutoring</title>
       <p>insert navigation</p>
       <p>insert header</p>
       <p>insert enrolments</p>
@@ -138,11 +140,11 @@ const IndexPage = () => {
       <p>insert testimonials</p> 
       <p>About Mathew</p>
       <p>Main teaching areas</p>
-      <p>FAQs</p>
+      <FAQs />
       <SocialMediaFollow />
       <Footer />
     </main>
-  )
+  );
 }
 
 export default IndexPage

@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+	background: white;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	font-family: 'PT Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+
+p {
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+blockquote {
+  margin-left: 2em;
+  font-style: italic;
+}
+
+
+.testimonial-icon {
+    /*  background: #f5f5f5;*/
+      padding: 1em;
+      position: absolute;
+      z-index: 2;
+      top: -1.5em;
+      left: 47%;
+      margin-left: -16px;
+      border-radius: 100%;
+     /* background: #f5f5f5;*/
+  }
+  
+  .call-to-action {
+    text-align: center;
+  }
+  
+  .faq-icon {
+      font-size: 2em;
+      padding: 0.5em;
+      position: absolute;
+      z-index: 2;
+      top: -1em;
+      left: 47%;
+      margin-left: -16px;
+      border-radius: 100%;
+    /*  background: #f5f5f5;*/
+  }
+  
+  .testimonial, .faq {
+      /*background: #F5F5F5;*/
+      margin: 30px 10px;
+      /*padding: 30px;*/
+      position: relative;
+      color: #666;
+      max-width: 500px;
+      flex-grow: 1;
+  }
