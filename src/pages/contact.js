@@ -6,7 +6,9 @@ import SocialMediaFollow from "../components/social-media-follow.js"
 
 const ContactPage = () => (
   	<Layout>
-  		<Helmet>
+  		<Helmet htmlAttributes={{
+        lang: 'en',
+        }}>
 		          <meta charSet="utf-8" />
 		          <title>Contact Mathew to Enquire About Online HSC English Tuition</title>
 		          <link rel="canonical" href="https://teakle.com.au/contact" />

@@ -9,7 +9,9 @@ import { FaQuoteLeft } from 'react-icons/fa';
 const TestimonialsPage = ({data}) => {
   return (    
         <Layout>
-          <Helmet>
+          <Helmet htmlAttributes={{
+            lang: 'en',
+            }}>
               <meta charSet="utf-8" />
               <title>Mathew Teakle Tutoring | Online HSC English Tuition</title>
               <link rel="canonical" href="https://teakle.com.au" />
@@ -19,7 +21,7 @@ const TestimonialsPage = ({data}) => {
               <meta name="description" content="Mathew Teakle is a qualified English teacher with 20 years of tutoring experience. 
               He provides private English tuition online to students all over NSW. Pay week by week or by term. Contact Mathew to discuss your English tutoring needs." />
               <meta name="google-site-verification" content="pIfTVRhYnx_exObArZVnORzf_3KokccntYBpdYTqUzo" />
-            </Helmet>
+        </Helmet>
           <main className="flex-grow pt-8 sm:mx-20 mx-5" role="main">
             <div><h1 className="text-2xl pt-4 text-center">HSC Student Testimonials</h1></div>
             <div className="flex flex-wrap justify-center">

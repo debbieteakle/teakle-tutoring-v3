@@ -7,7 +7,9 @@ import { Link } from "gatsby"
 const WorkPage = () => {
 	return (		
 		   	<Layout >
-		   	  	<Helmet>
+		   	  	<Helmet htmlAttributes={{
+      			lang: 'en',
+      			}}>
 		          <meta charSet="utf-8" />
 		          <title>How It Works | Online HSC English Tuition</title>
 		          <link rel="canonical" href="https://teakle.com.au/how-i-work" />

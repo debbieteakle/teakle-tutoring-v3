@@ -17,7 +17,9 @@ import { FaQuoteLeft } from 'react-icons/fa';
 const IndexPage = ({data}) => {
   return (
     <Layout>
-      <Helmet>
+      <Helmet htmlAttributes={{
+      lang: 'en',
+      }}>
 		          <meta charSet="utf-8" />
 		          <title>Mathew Teakle Tutoring | Online HSC English Tuition, Sydney</title>
 		          <link rel="canonical" href="https://teakle.com.au" />

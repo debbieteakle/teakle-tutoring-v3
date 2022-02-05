@@ -8,7 +8,9 @@ import { graphql } from 'gatsby'
 const BlogPage = ({data}) => {
   return (    
         <Layout>
-          <Helmet>
+          <Helmet htmlAttributes={{
+            lang: 'en',
+            }}>
               <meta charSet="utf-8" />
               <title>Mathew Teakle Tutoring | Online HSC English Tuition</title>
               <link rel="canonical" href="https://teakle.com.au" />
