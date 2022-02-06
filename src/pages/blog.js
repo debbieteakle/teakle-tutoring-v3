@@ -13,7 +13,7 @@ const BlogPage = ({data}) => {
             }}>
               <meta charSet="utf-8" />
               <title>Mathew Teakle Tutoring | Online HSC English Tuition</title>
-              <link rel="canonical" href="https://teakle.com.au" />
+              <link rel="canonical" href="https://teakle.com.au/blog" />
               <meta name="keywords" content="Find a Tutor, English Tutor, English Teacher, 
               Private Tutor English, Online Teacher English, Private English Teacher, HSC English Tutor, 
               High School English, High School Literacy Tutor, Essays, Creative Writing" />
