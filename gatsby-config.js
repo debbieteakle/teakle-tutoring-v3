@@ -4,7 +4,7 @@ module.exports = {
     title: `Mathew Teakle Tutoring | Online HSC English Tuition, Sydney`,
     description: `Mathew Teakle is a qualified English teacher with 20 years of tutoring experience. 
     He provides private English tuition online to students all over NSW. Pay week by week or by term. Contact Mathew to discuss your English tutoring needs.`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.teakle.com.au`
   },
   plugins: [ "gatsby-plugin-postcss",  "gatsby-plugin-styled-components", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
