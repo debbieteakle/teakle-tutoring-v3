@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/teakle-tutoring-v3",
   siteMetadata: {
       title: `Teakle Tutoring`,
     siteUrl: `https://www.yourdomain.tld`
