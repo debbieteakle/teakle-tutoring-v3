@@ -1,5 +1,5 @@
 import React from "react"
-import { Helmet } from "react-helmet"
+import { SEO } from "../components/seo"
 import Layout from "../components/layout.js"
 import { Link } from "gatsby"
 import { graphql } from 'gatsby'
@@ -9,19 +9,6 @@ import { FaQuoteLeft } from 'react-icons/fa';
 const TestimonialsPage = ({data}) => {
   return (    
         <Layout>
-          <Helmet htmlAttributes={{
-            lang: 'en',
-            }}>
-              <meta charSet="utf-8" />
-              <title>Mathew Teakle Tutoring | Student Testimonials</title>
-              <link rel="canonical" href="https://teakle.com.au/testimonials" />
-              <meta name="keywords" content="Find a Tutor, English Tutor, English Teacher, 
-              Private Tutor English, Online Teacher English, Private English Teacher, HSC English Tutor, 
-              High School English, High School Literacy Tutor, Essays, Creative Writing" />
-              <meta name="description" content="Mathew Teakle is a qualified English teacher with 20 years of tutoring experience. 
-              He provides private English tuition online to students all over NSW. Pay week by week or by term. Contact Mathew to discuss your English tutoring needs." />
-              <meta name="google-site-verification" content="pIfTVRhYnx_exObArZVnORzf_3KokccntYBpdYTqUzo" />
-        </Helmet>
           <main className="flex-grow pt-8 sm:mx-20 mx-5" role="main">
             <div><h1 className="text-2xl pt-4 text-center">HSC Student Testimonials</h1></div>
             <div className="flex flex-wrap justify-center">
@@ -64,11 +51,14 @@ export const pageQuery = graphql `
 }
 
 `
-
-
 export default TestimonialsPage
 
-
+export const Head = () => (
+  <SEO title="Mathew Teakle Tutoring | Student Testimonials" >
+    <meta charSet="utf-8" />
+    <meta name="keywords" content="Find a Tutor, English Tutor, English Teacher, Private Tutor English, Online Teacher English, Private English Teacher, HSC English Tutor, High School English, High School Literacy Tutor, Essays, Creative Writing" />
+  </SEO>
+)
 
 
 

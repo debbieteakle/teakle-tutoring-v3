@@ -1,5 +1,5 @@
 import React from "react"
-import { Helmet } from 'react-helmet'
+import { SEO } from "../components/seo"
 import Layout from "../components/layout.js"
 import { Link } from "gatsby"
 
@@ -7,15 +7,6 @@ import { Link } from "gatsby"
 const WorkPage = () => {
 	return (		
 		   	<Layout >
-		   	  	<Helmet htmlAttributes={{
-      			lang: 'en',
-      			}}>
-		          <meta charSet="utf-8" />
-		          <title>How It Works | Online HSC English Tuition</title>
-		          <link rel="canonical" href="https://teakle.com.au/how-i-work" />
-		          <meta name="description" content="Mathew Teakle is a qualified English teacher with 20 years of tutoring experience. 
-		          He provides private English tuition online to students all over NSW. Pay week by week or by term. Contact Mathew to discuss your English tutoring needs." />
-				</Helmet>
 				<main className="flex-grow pt-8 sm:mx-20 mx-5 content-center" role="main">
 					<h1 className="text-4xl">How I Work</h1>
 						<article className="py-4">
@@ -53,7 +44,12 @@ const WorkPage = () => {
 }
 export default WorkPage
 
-
+export const Head = () => (
+	<SEO title="How It Works | Online HSC English Tuition" >
+	  <meta charSet="utf-8" />
+	  <meta name="keywords" content="Find a Tutor, English Tutor, English Teacher, Private Tutor English, Online Teacher English, Private English Teacher, HSC English Tutor, High School English, High School Literacy Tutor, Essays, Creative Writing" />
+	</SEO>
+  )
 
 
 
