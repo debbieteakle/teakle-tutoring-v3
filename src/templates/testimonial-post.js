@@ -25,7 +25,7 @@ export const Head = ({ data: { markdownRemark: post } }) => {
   return (
     <Seo
       title={post.frontmatter.author}
-      // description={post.frontmatter.description || post.excerpt}
+      description={post.excerpt}
     />
   )
 }
@@ -42,6 +42,7 @@ export const postQuery = graphql `
         studytype
     
       }
+      excerpt(pruneLength: 160, truncate: false)
     }
   }
 `
