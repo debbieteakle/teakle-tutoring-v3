@@ -1,4 +1,5 @@
 import React from 'react'
+import { SEO } from "../components/seo"
 import Layout from '../components/layout.js'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { graphql } from 'gatsby'
@@ -19,6 +20,15 @@ export default function Template({data}){
         </main>
       </Layout>
     )
+}
+
+export const Head = ({ data: { markdownRemark: post } }) => {
+  return (
+    <SEO
+      title={post.frontmatter.title}
+      // description={post.frontmatter.description || post.excerpt}
+    />
+  )
 }
 
 export const postQuery = graphql `
