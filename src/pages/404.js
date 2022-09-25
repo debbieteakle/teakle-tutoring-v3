@@ -1,5 +1,5 @@
 import React from "react"
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 import { Link } from "gatsby"
 import Layout from "../components/layout.js"
 
@@ -19,8 +19,8 @@ const PageNotFound = () => {
 export default PageNotFound
 
 export const Head = () => (
-	<SEO title="404 Page Not Found" >
+	<Seo title="404 Page Not Found" >
 	  <meta charSet="utf-8" />
 	  <meta name="keywords" content="Find a Tutor, English Tutor, English Teacher, Private Tutor English, Online Teacher English, Private English Teacher, HSC English Tutor, High School English, High School Literacy Tutor, Essays, Creative Writing" />
-	</SEO>
+	</Seo>
   )

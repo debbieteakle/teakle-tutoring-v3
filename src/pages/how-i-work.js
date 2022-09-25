@@ -1,5 +1,5 @@
 import React from "react"
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 import Layout from "../components/layout.js"
 import { Link } from "gatsby"
 
@@ -45,10 +45,10 @@ const WorkPage = () => {
 export default WorkPage
 
 export const Head = () => (
-	<SEO title="How It Works | Online HSC English Tuition" >
+	<Seo title="How It Works | Online HSC English Tuition" >
 	  <meta charSet="utf-8" />
 	  <meta name="keywords" content="Find a Tutor, English Tutor, English Teacher, Private Tutor English, Online Teacher English, Private English Teacher, HSC English Tutor, High School English, High School Literacy Tutor, Essays, Creative Writing" />
-	</SEO>
+	</Seo>
   )
 
 

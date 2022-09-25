@@ -1,5 +1,5 @@
 import React from 'react'
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 import Layout from '../components/layout.js'
 import { graphql } from 'gatsby'
 
@@ -23,7 +23,7 @@ export default function Template({data}){
 
 export const Head = ({ data: { markdownRemark: post } }) => {
   return (
-    <SEO
+    <Seo
       title={post.frontmatter.author}
       // description={post.frontmatter.description || post.excerpt}
     />

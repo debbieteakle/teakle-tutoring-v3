@@ -1,5 +1,5 @@
 import * as React from "react"
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 import { graphql } from 'gatsby'
 import { Link } from "gatsby"
 import Layout from "../components/layout"
@@ -75,9 +75,9 @@ export const testimonialQuery = graphql `
 export default IndexPage
 
 export const Head = () => (
-  <SEO>
+  <Seo>
     <meta charSet="utf-8" />
     <meta name="keywords" content="Find a Tutor, English Tutor, English Teacher, Private Tutor English, Online Teacher English, Private English Teacher, HSC English Tutor, High School English, High School Literacy Tutor, Essays, Creative Writing" />
 		<meta name="google-site-verification" content="pIfTVRhYnx_exObArZVnORzf_3KokccntYBpdYTqUzo" />
-  </SEO>
+  </Seo>
 )
